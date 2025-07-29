@@ -1,0 +1,14 @@
+[package]
+name = "flight_scribe"
+version = "0.1.0"
+authors = ["lareverie"]
+edition = "2024"
+description = "A simple VFR navigation log for flight simulation"
+license = "GPL-3.0-or-later"
+repository = ""
+readme = "README.md"
+keywords = ["egui", "eframe", "flight", "navigation"]
+categories = ["gui"]
+
+[dependencies]
+eframe = "0.32.0"
