@@ -24,6 +24,7 @@ pub fn solve(wpt: &mut Waypoint) {
     wpt.true_heading = wpt.course + wca_deg;
     // Calculate flight time in seconds
     wpt.flight_time = (wpt.distance / ground_speed) * 3600.0;
+
 }
 
 /// --- TESTS --- ///
